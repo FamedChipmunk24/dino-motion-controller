@@ -36,7 +36,7 @@ On Windows, you can double-click `run.bat` instead.
 
 ## Background
 
-This started as a Geometry Dash controller. Measuring the latency (camera about 24 fps, pose model about 17 ms) showed that most of the delay came from the detection rule, not the hardware. Switching from height-based to takeoff-speed detection made jumps register about 125 ms sooner. Geometry Dash still turned out to be a poor fit: it needs rapid back-to-back clicks and held inputs, and a human jump takes about half a second. The dinosaur game's pacing matches full-body movement, so the project moved there and added ducking.
+This started as a Geometry Dash controller. Measuring the latency (camera about 24 fps, pose model about 17 ms) showed that most of the delay came from the detection rule, not the hardware. Switching from height-based to takeoff-speed detection made jumps register about 3 frames (~125 ms) sooner in simulated testing. Geometry Dash still turned out to be a poor fit: it needs rapid back-to-back clicks and held inputs, and a human jump takes about half a second. The dinosaur game's pacing matches full-body movement, so the project moved there and added ducking.
 
 ## Credits
 
